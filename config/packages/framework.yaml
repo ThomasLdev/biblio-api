@@ -4,6 +4,11 @@ framework:
     #csrf_protection: true
     http_method_override: false
     handle_all_throwables: true
+    
+    http_client:
+        scoped_clients:
+            google_books.client:
+                base_uri: 'https://www.googleapis.com/books/v1/'
 
     # Enables session support. Note that the session will ONLY be started if you read or write from it.
     # Remove or comment this section to explicitly disable session support.

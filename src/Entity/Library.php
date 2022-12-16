@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author tlefebvre@norsys.fr
+ */
+
 namespace App\Entity;
 
 use App\Repository\LibraryRepository;
